@@ -33,7 +33,10 @@ table.schedule td {
 
 
 /* Table Caption Styles */
-
+table.schedule caption {
+    caption-side: bottom;
+    text-align: right;
+}
 
 
 /* Row Group Styles */
@@ -41,3 +44,12 @@ table.schedule td {
 
 
 /* Column Group Styles */
+col#firstcol {
+    background: rgb(218, 210, 218);
+    width: 16%;
+}
+
+col.daycol {
+    background: rgb(255, 220, 255);
+    width: 12%;
+}
